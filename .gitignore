@@ -1,0 +1,53 @@
+# phpstorm project files IDE
+/.idea
+# visual studio code
+/.vscode
+# netbeans project files IDE
+/nbproject
+# zend studio for eclipse project files IDE
+/.buildpath
+/.project
+/.settings
+# code lob ster IDE
+/*.clpprj
+/*.csprj
+# KDevelop IDE
+/*.kdev4
+# Mac DS_Store Files IDE
+/.DS_Store
+# ctags
+/.tags
+/.tags_sorted_by_file
+# c9 sdk IDE
+/.c9
+
+# logs
+/*.log
+
+# cache
+*~
+# windows thumbnail cache
+/Thumbs.db
+/*.ini
+
+# 宝塔linux env
+#/.htaccess
+#/.user.ini
+#/404.html
+#/index.html
+
+# tar.gz
+/*.tar.gz
+
+# vue
+/node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
