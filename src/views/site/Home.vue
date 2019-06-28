@@ -3,11 +3,11 @@
         <b-row>
             <b-col md="12">
                 <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-                    <div class="col-md-6 px-0">
+                    <b-col md="6" class="px-0">
                         <h1 class="display-4 font-italic">欢迎进入我的博客</h1>
                         <p class="lead my-3">人最宝贵的是生命，生命对人来说只有一次。人的一生应当这样度过：当他回首往事时，不会因为碌碌无为，虚度年华而悔恨，也不会因为为人卑劣，生活庸俗而愧疚。</p>
                         <p class="lead mb-0 text-white font-weight-bold">-- 《钢铁是怎样炼成的》 作者：奥斯特洛夫斯基</p>
-                    </div>
+                    </b-col>
                 </div>
             </b-col>
             <b-col md="6">
