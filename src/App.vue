@@ -1,67 +1,28 @@
 <template>
-    <div id="app">
-        <el-container>
-            <el-aside>
-                <el-row class="avatar">
-                    <el-col :span="24">
-                        <img style="width: 100%;" src="./assets/avatar.jpg" />
-                    </el-col>
-                </el-row>
-                <el-row class="menu">
-                    <el-col :span="24">
-                        <el-menu class="el-menu-vertical" @open="handleOpen" @close="handleClose" router="true" :default-active="activeMenuIndex">
-                            <el-menu-item v-for="m in menus" :key="m.index" :index="m.index" :route="m.route">
-                                <i :class="m.icon"></i>
-                                <span slot="title">{{m.title}}</span>
-                            </el-menu-item>
-                        </el-menu>
-                    </el-col>
-                </el-row>
-            </el-aside>
-            <el-main>
-                <router-view/>
-            </el-main>
-        </el-container>
-    </div>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-    import store from './store';
-    import 'jquery';
-    import 'bootstrap';
-    export default {
-        data() {
-            return {
-                activeMenuIndex: store.state.activeMenuIndex,
-                menus: [
-                    {
-                        index: "1",
-                        route: "/",
-                        title: "主页",
-                        icon: "el-icon-house"
-                    },
-                    {
-                        index: "2",
-                        route: "/resume",
-                        title: "简历",
-                        icon: "el-icon-tickets"
-                    }
-                ]
-            }
-        }
-    }
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'app',
+  components: {
+    HelloWorld
+  }
+}
 </script>
 
 <style>
-    html,body,#app,.el-container {
-        height: 100%;
-    }
-    .el-aside {}
-    .el-main {
-        background-color: #E9EEF3;
-    }
-
-    .avatar {
-        text-align: center;
-    }
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>

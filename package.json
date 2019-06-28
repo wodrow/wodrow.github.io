@@ -1,5 +1,5 @@
 {
-  "name": "wodrow.github.io",
+  "name": "vuecli3",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,17 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
-    "element-ui": "^2.9.1",
-    "jquery": "^3.4.1",
-    "lodash": "^4.17.11",
-    "popper.js": "^1.15.0",
-    "underscore": "^1.9.1",
-    "vue": "^2.6.10",
-    "vue-amap": "^0.5.9",
-    "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
@@ -27,9 +18,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.3",
-    "vue-cli-plugin-element": "^1.0.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
