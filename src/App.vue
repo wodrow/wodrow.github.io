@@ -3,7 +3,7 @@
         <div class="wrap">
             <div id="nav">
                 <b-navbar toggleable="lg" type="dark" variant="secondary" fixed="top">
-                    <div class="container">
+                    <b-container>
                         <b-navbar-brand href="#/">首页</b-navbar-brand>
 
                         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,12 +17,12 @@
                                 <b-nav-item href="#/about" right>关于本站</b-nav-item>
                             </b-navbar-nav>
                         </b-collapse>
-                    </div>
+                    </b-container>
                 </b-navbar>
             </div>
-            <div class="container">
+            <b-container>
                 <router-view/>
-            </div>
+            </b-container>
         </div>
         <footer class="footer">
             <div class="container">
