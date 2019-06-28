@@ -1,9 +1,8 @@
 <template>
     <div class="home">
         <div class="row">
-            <div class="col-12">
-                test
-            </div>
+            <div class="col-md-4">1</div>
+            <div class="col-md-8">1</div>
         </div>
     </div>
 </template>
