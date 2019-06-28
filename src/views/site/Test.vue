@@ -10,7 +10,11 @@
 
 <script>
     export default {
-        name: 'Home',
+        name: 'Test',
         components: {}
     }
 </script>
+
+<style scoped>
+
+</style>

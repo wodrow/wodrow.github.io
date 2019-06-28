@@ -1,4 +1,11 @@
 // vue.config.js
 module.exports = {
-    "publicPath": "./"
+    "publicPath": "./",
+
+    pluginOptions: {
+      'style-resources-loader': {
+        preProcessor: 'stylus',
+        patterns: []
+      }
+    }
 }
