@@ -2,7 +2,9 @@
     <div class="home">
         <div class="row">
             <div class="col-12">
-                test
+                <router-link to="/">Home</router-link>
+                |
+                <router-link to="/about">About</router-link>
             </div>
             <div class="col-12">
                 <img alt="Vue logo" src="../../assets/logo.png">

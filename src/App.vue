@@ -51,6 +51,8 @@
         height: 100%
         /*background: url("~@/assets/bg1.gif") repeat*/
 
+    p
+        text-indent: 2em
     .wrap
         min-height: 100%
         height: auto
