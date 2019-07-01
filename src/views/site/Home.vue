@@ -180,6 +180,8 @@
 <script>
     export default {
         name: 'Home',
-        components: {}
+        mounted: function () {
+            window.document.title = "首页";
+        }
     }
 </script>

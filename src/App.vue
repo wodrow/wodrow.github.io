@@ -10,11 +10,11 @@
 
                         <b-collapse id="nav-collapse" is-nav>
                             <b-navbar-nav>
-                                <b-nav-item href="#/resume">我的简历</b-nav-item>
+                                <b-nav-item href="#/resume" :class="[$route.path == '/resume'?'active':'']">我的简历</b-nav-item>
                             </b-navbar-nav>
                             <!-- Right aligned nav items -->
                             <b-navbar-nav class="ml-auto">
-                                <b-nav-item href="#/about" right>关于本站</b-nav-item>
+                                <b-nav-item href="#/about" :class="[$route.path == '/about'?'active':'']" right>关于本站</b-nav-item>
                             </b-navbar-nav>
                         </b-collapse>
                     </b-container>
@@ -37,8 +37,11 @@
         name: "App",
         data: function () {
             return {
-                copyright: "© My Company 2019"
+                copyright: "© vuecli3.0"
             }
+        },
+        mounted: function () {
+            window.console.log(this.$route.path);
         }
     }
 </script>
