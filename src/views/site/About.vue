@@ -36,5 +36,8 @@
 <script>
     export default {
         name: "About",
+        mounted: function () {
+            window.document.title = "关于本站";
+        }
     }
 </script>
