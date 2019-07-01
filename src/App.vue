@@ -37,7 +37,7 @@
         name: "App",
         data: function () {
             return {
-                copyright: "© vuecli3.0"
+                copyright: "© vuecli3.0 | © vue-bootstrap"
             }
         },
         mounted: function () {

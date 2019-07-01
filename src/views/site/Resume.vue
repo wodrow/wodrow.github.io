@@ -1,30 +1,30 @@
 <template>
     <div class="resume">
-        <div class="row">
-            <div class="col-md-4">
+        <b-row>
+            <b-col md="4">
                 <b-card bg-variant="secondary" text-variant="white">
                     <b-img rounded="circle" fluid src="~@/assets/avatar.jpg"></b-img>
                 </b-card>
                 <b-card bg-variant="default" header="个人信息" :class="['mt20']">
-                    <div class="row" v-for="(o, i) in this.profiles" :key="i">
-                        <div class="col-sm-4">
+                    <b-row v-for="(o, i) in this.profiles" :key="i">
+                        <b-col cols="4">
                             <span class="text-success">{{o.k}}</span>
-                        </div>
-                        <div class="col-sm-8" v-html="o.v"></div>
-                    </div>
+                        </b-col>
+                        <b-col cols="8" v-html="o.v"></b-col>
+                    </b-row>
                 </b-card>
                 <b-card bg-variant="default" header="技能" :class="['mt20']">
-                    <div class="row" v-for="(o, i) in this.skills" :key="i">
-                        <div class="col-sm-4">
+                    <b-row v-for="(o, i) in this.skills" :key="i">
+                        <b-col cols="4">
                             <span class="text-success">{{o.name}}</span>
-                        </div>
-                        <div class="col-sm-8">
+                        </b-col>
+                        <b-col cols="8">
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" :style="{'width':o.percent}"
                                      :aria-valuenow="o.len" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        </div>
-                    </div>
+                        </b-col>
+                    </b-row>
                 </b-card>
                 <b-card bg-variant="default" :class="['mt20']">
                     <div class="amap-page-container">
@@ -35,8 +35,8 @@
                         </div>
                     </div>
                 </b-card>
-            </div>
-            <div class="col-md-8">
+            </b-col>
+            <b-col md="8">
                 <b-card bg-variant="default" header="工作经历">
                     <ul class="timeline">
                         <li v-for="(o, i) in companys" :key="i">
@@ -64,8 +64,8 @@
                     <p>能够够使用git等版本管理工具进行合作开发</p>
                     <p>熟练掌握各种设计模式，能写出功能稳定，扩展性强，维护方便的代码</p>
                 </b-card>
-            </div>
-        </div>
+            </b-col>
+        </b-row>
     </div>
 </template>
 

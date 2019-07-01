@@ -48,131 +48,46 @@
             </b-col>
             <b-col md="8">
                 <h3 class="pb-3 mb-4 font-italic border-bottom">
-                    From the Firehose
+                    个人小结
                 </h3>
-
                 <div class="blog-post">
-                    <h2 class="blog-post-title">Sample blog post</h2>
-                    <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-                    <p>This blog post shows a few different types of content that's supported and styled with Bootstrap.
-                        Basic typography, images, and code are all supported.</p>
-                    <hr>
-                    <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus
-                        mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
-                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                    <blockquote>
-                        <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong>
-                            ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </blockquote>
-                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-                        fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <h2>Heading</h2>
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus,
-                        porta ac consectetur ac, vestibulum at eros.</p>
-                    <h3>Sub-heading</h3>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <pre><code>Example code block</code></pre>
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
-                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-                    <h3>Sub-heading</h3>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
-                        lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
-                        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-                        amet risus.</p>
-                    <ul>
-                        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                        <li>Donec id elit non mi porta gravida at eget metus.</li>
-                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                    </ul>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra
-                        augue.</p>
-                    <ol>
-                        <li>Vestibulum id ligula porta felis euismod semper.</li>
-                        <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                        <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-                    </ol>
-                    <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-                </div><!-- /.blog-post -->
-
-                <div class="blog-post">
-                    <h2 class="blog-post-title">Another blog post</h2>
-                    <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-                    <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus
-                        mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
-                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-                    <blockquote>
-                        <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong>
-                            ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </blockquote>
-                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-                        fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
-                        commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus,
-                        porta ac consectetur ac, vestibulum at eros.</p>
-                </div><!-- /.blog-post -->
-
-                <div class="blog-post">
-                    <h2 class="blog-post-title">New feature</h2>
-                    <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
-                        lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
-                        dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-                        amet risus.</p>
-                    <ul>
-                        <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                        <li>Donec id elit non mi porta gravida at eget metus.</li>
-                        <li>Nulla vitae elit libero, a pharetra augue.</li>
-                    </ul>
-                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-                        fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra
-                        augue.</p>
-                </div><!-- /.blog-post -->
-
-                <nav class="blog-pagination">
-                    <a class="btn btn-outline-primary" href="#">Older</a>
-                    <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-                </nav>
+                    <p>
+                        时光飞逝，不知不觉间，竟然进入了奔三的行列，作为一个勤恳工作在码农大军前线的一员，蓦然发现，自己在事业上一无所成。
+                    </p>
+                    <p>
+                        难道就这样一直碌碌无为下去？不，作为一个有理想，有抱负，有能力的三有青年，咸鱼一样的生活不是我要的。
+                        经过多年的工作学习积累，我已经掌握了许多编程技能，自认为可以解决大部分技术上的难题。我希望找到一家信任我的公司或团队，合作创出一番事业。
+                    </p>
+                    <p>
+                        我主要使用的程序语言是PHP，平时多使用yii2框架，当然也涉猎过许多其他框架，cms以及二次开发的程序，不管是接手新项目或者在老项目上实现功能的添加修改调试，都能胜任；平时使用Linux桌面系统，可以熟练地使用Linux命令；另外，我还了解各种前端知识，前端工作也不是问题，本站就是一个示例,用到了vue、jQuery、bootstrap等各种新技术和流行技术。
+                    </p>
+                    <p>
+                        另外，我掌握各种编程工具以及团队开发工具，可以和团队成员一起完成各种开发任维护任务。
+                    </p>
+                    <p>
+                        我的个人优势主要体现在于能根据需求开发出稳定性强，扩展性高，安全性强的功能，开发会用到许多成熟的开源软件，降低开发和维护成本，让不管是技术人员还是非技术人员，都能更轻松有效率地工作。
+                    </p>
+                </div>
             </b-col>
             <b-col md="4">
                 <div class="p-3 mb-3 bg-light rounded">
-                    <h4 class="font-italic">About</h4>
-                    <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur
-                        purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <h4 class="font-italic">小帖子</h4>
+                    <p class="mb-0">
+                        珍惜生命，远离百度搜索。我有一万种方法上谷歌。
+                    </p>
                 </div>
-
                 <div class="p-3">
-                    <h4 class="font-italic">Archives</h4>
-                    <ol class="list-unstyled mb-0">
-                        <li><a href="#">March 2014</a></li>
-                        <li><a href="#">February 2014</a></li>
-                        <li><a href="#">January 2014</a></li>
-                        <li><a href="#">December 2013</a></li>
-                        <li><a href="#">November 2013</a></li>
-                        <li><a href="#">October 2013</a></li>
-                        <li><a href="#">September 2013</a></li>
-                        <li><a href="#">August 2013</a></li>
-                        <li><a href="#">July 2013</a></li>
-                        <li><a href="#">June 2013</a></li>
-                        <li><a href="#">May 2013</a></li>
-                        <li><a href="#">April 2013</a></li>
-                    </ol>
-                </div>
-
-                <div class="p-3">
-                    <h4 class="font-italic">Elsewhere</h4>
+                    <h4 class="font-italic">站点收藏</h4>
                     <ol class="list-unstyled">
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
+                        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                        <li><a href="https://packagist.org/" target="_blank">packagist</a></li>
+                        <li><a href="https://gitee.com/" target="_blank">码云</a></li>
+                        <li><a href="https://www.bootcss.com/" target="_blank">Bootstrap中文网</a></li>
+                        <li><a href="https://www.bootcdn.cn/" target="_blank">bootcdn</a></li>
+                        <li><a href="https://cdnjs.com/" target="_blank">cdnjs</a></li>
                     </ol>
                 </div>
             </b-col>
-
         </b-row>
     </div>
 </template>
