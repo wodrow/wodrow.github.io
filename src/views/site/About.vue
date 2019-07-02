@@ -24,7 +24,9 @@
                     <br>
                     电话: <code>17091551612</code>
                     <br>
-                    邮箱: <code>wodrow451611cv@gmail.com</code> <code>1173957281@qq.com</code>
+                    邮箱: <code>wodrow451611cv@gmail.com</code>
+                    <br>
+                    邮箱2: <code>1173957281@qq.com</code>
                     <br>
                     拒绝任何骚扰 !
                 </p>

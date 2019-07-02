@@ -20,7 +20,7 @@
                         </b-col>
                         <b-col cols="8">
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" :style="{'width':o.percent}"
+                                <div class="progress-bar" role="progressbar" :style="{'width': o.percent}"
                                      :aria-valuenow="o.len" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </b-col>
