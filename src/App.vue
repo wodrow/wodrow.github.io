@@ -41,7 +41,13 @@
             }
         },
         mounted: function () {
-            window.console.log(this.$route.path);
+            let _hmt = _hmt || [];
+            (function() {
+                let hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?b5556692099a6b0e1c1ab06d081719aa";
+                let s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
         }
     }
 </script>
