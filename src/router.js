@@ -19,6 +19,13 @@ export default new Router({
             }
         },
         {
+            path: '/osworks',
+            name: 'osworks',
+            component: function () {
+                return import('./views/site/Osworks.vue');
+            }
+        },
+        {
             path: '/about',
             name: 'about',
             // route level code-splitting

@@ -125,9 +125,7 @@
 </script>
 
 <style lang="sass">
-    .mt20
-        margin-top: 20px
-        
+
     .timeline 
         list-style: none
         padding: 20px 0 20px

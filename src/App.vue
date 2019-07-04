@@ -11,6 +11,7 @@
                         <b-collapse id="nav-collapse" is-nav>
                             <b-navbar-nav>
                                 <b-nav-item href="#/resume" :class="[$route.path == '/resume'?'active':'']">我的简历</b-nav-item>
+                                <b-nav-item href="#/osworks" :class="[$route.path == '/osworks'?'active':'']">开源作品</b-nav-item>
                             </b-navbar-nav>
                             <!-- Right aligned nav items -->
                             <b-navbar-nav class="ml-auto">
@@ -59,6 +60,7 @@
 
     p
         text-indent: 2em
+
     .wrap
         min-height: 100%
         height: auto
@@ -72,5 +74,8 @@
         height: 60px
         border-top: 1px solid #ddd
         padding-top: 20px
+
+    .mt20
+        margin-top: 20px
 
 </style>
