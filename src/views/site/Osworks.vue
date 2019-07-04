@@ -137,10 +137,10 @@
                 <h6>视图</h6>
                 <p>
                     <code>
-                        <?=wodrow\yii2wwtree\TreeWidget::widget([
+                        &lt;?=wodrow\yii2wwtree\TreeWidget::widget([
     'treeModelClass' => "your model class",
                         'custom_field_view' => "add your extend field view",
-                        ]) ?>
+                        ]) ?&gt;
                     </code>
                 </p>
                 <h6>注意</h6>
