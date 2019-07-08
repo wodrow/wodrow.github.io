@@ -83,6 +83,7 @@
                         <li><a href="https://www.bootcss.com/" target="_blank">Bootstrap中文网</a></li>
                         <li><a href="https://www.bootcdn.cn/" target="_blank">bootcdn</a></li>
                         <li><a href="https://cdnjs.com/" target="_blank">cdnjs</a></li>
+                        <li><a href="http://querylist.cc/querylist-test/" target="_blank">querylist-test</a></li>
                     </ol>
                 </div>
             </b-col>
