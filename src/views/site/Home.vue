@@ -71,7 +71,7 @@
                 <div class="p-3 mb-3 bg-light rounded">
                     <h4 class="font-italic">小帖子</h4>
                     <p class="mb-0">
-                        珍惜生命，远离百度搜索。我有一万种方法上谷歌。
+                        不为失败找接口，只为成功找方法。
                     </p>
                 </div>
                 <div class="p-3">
